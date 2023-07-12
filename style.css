@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color:#fff;
+    font-family: system-ui;
+
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.head{
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    background-color: #1d1a1a;
+}
+.head h2{
+
+    color: rgb(50, 172, 68);
+    letter-spacing: 2px;
+}
+.head p{
+    transition: .5s;
+
+}
+ .head p:hover{
+    /* text-decoration: underline; */
+    color:  rgb(50, 172, 68);
+    letter-spacing: 1.5px;
+    border-radius: 2px solid red;
+
+ }
+ input{
+    width: 100%;
+    background-color: #333;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s;
+
+
+ }
+ input[placeholder]{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+ }
+ input:hover{
+    border: 1px solid rgb(50, 172, 68) ;
+    transform: scale(1.1);
+
+ }
+
+ .priceinputs{
+    /* width: 20%; */
+    display: flex;
+ }
+ #total{
+    background-color:  rgb(50, 172, 68);
+    /* width: 100%; */
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+ }
+ #total::before{
+    content: "total:";
+ }
+
+ button{
+    width: 90%;
+    background-color:  rgb(50, 172, 68);
+    padding: 10px;
+    margin: 5px 0 ;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: 1s;
+
+ }
+ .btnsearch{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.btnsearch button{
+    width: 30%;
+}
+ button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color:  rgb(9, 93, 21);
+    
+ }
+ table{
+    width: 100%;
+    padding: 30px 0;
+ }
+
+ table button{
+    letter-spacing: 0px;
+    cursor: pointer;
+    background-color:  rgb(9, 93, 21);
+    
+ }
+ #deletAllItems button:hover{
+    background-color: rgb(123, 5, 5);
+
+ }
